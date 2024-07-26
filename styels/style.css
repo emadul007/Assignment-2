@@ -148,9 +148,55 @@ font-size: 48px;
 .change-habits{
     text-align: center;
 }
+.run{
+    color: #FFFFFF;
+    background-color: #222222;
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+    width: 1060px;
+    
+}
+.run-fonts{
+    font-size: 3rem;
+}
+.run-p-fonts{
+    font-size: 1rem;
+}
+.image-size{
+    border: radius 30px;
+
+}
+.run2{
+    margin: 10px;
+    padding: 30px;
+}
+
+.text-size-team{
+    font-size: 3rem ;
+    
+    
+}
+.meet-our-team{
+    color: white;
+    margin: 50px;
+    text-align: center;
+    width: 1160px ;
+    background-color: #222222;
+    
+}
+
+.meet-team-img-container{
+
+    
+    
+
+
+}
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links{
+    .navbar, .nav-links, .teams{
         flex-direction: column;
+        
 
     }
     
