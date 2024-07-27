@@ -110,6 +110,7 @@ border-radius: 10px;
 }
 .banner-image{
     width: auto;
+   position: relative;
 }
 main{
     width: 1044px;
@@ -125,6 +126,32 @@ font-size: 48px;
 }
 .habit-font{
     font-size: 1rem;
+}
+.Video-tutorial{
+    font-size: 25px;
+    background: rgb(48, 48, 48);
+   color: white;
+    position: relative;
+   transform: translate(-350%,300%);
+   
+    
+
+}
+
+.Workout{
+
+    font-size: 25px;
+    background: rgb(48, 48, 48);
+   color: white;
+    position: relative;
+   transform: translate(-150%,-250%);
+
+}
+.vt-font{
+    font-size: 20px;
+}
+.w-font{
+    font-size: 15px;
 }
 .team-img-container{
     display: flex;
