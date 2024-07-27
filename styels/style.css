@@ -188,14 +188,26 @@ font-size: 48px;
 }
 
 .meet-team-img-container{
+ display: grid;
+ grid-template-columns: repeat(3, 2fr);
+ row-gap: 20px;
+column-gap: 0;
+ border-radius: 15px;
+ 
+}
+.text{
+ font-size: 12px;
+ position: absolute;
+ transform: translate(60%,-110%);
+ 
+   
+   
+   
+   
   
-    grid-template-rows: repeat(3, 1fr);
-  
-    
-    
-
 
 }
+
 
 .footer-font-size{
     font-size: 1rem;
@@ -249,6 +261,7 @@ font-size: 48px;
     .real-footer,
     .footer2,
     .real-footer
+    .meet-team-img-container
     {
         flex-direction: column;
         
