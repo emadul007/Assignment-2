@@ -201,12 +201,16 @@ font-size: 48px;
     font-size: 1rem;
     
 }
+.real-footer{
+    background: #222222;
+}
 .footer-class{
     color: white;
-    background: #222222;
+  
     display: flex;
   justify-content: space-between;
   text-decoration: none;
+  margin: 70px;
   
 
    
@@ -215,18 +219,45 @@ font-size: 48px;
     display: flex;
     text-decoration: none;
     justify-content: space-between;
-    
+    text-align: center;
+  
+
 }
-.my-footer{
+  
+.footer-fit{
+    margin: 30px;
+    
+   justify-content: center;
+    
+
+}
+.footer2{
     display: flex;
-    justify-content: space-between;
+    
+   gap: 80px;
+    background: #222222;
+
+    
 }
 
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, 
+    .nav-links, 
+    .teams,
+    .team-img-container,
+    .image-size,
+    .real-footer,
+    .footer2,
+    .real-footer
+    {
         flex-direction: column;
         
 
     }
+   
+
+        
+
+
     
 }
