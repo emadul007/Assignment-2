@@ -26,7 +26,6 @@ body {
 
 
 
-
 .inter-fonts{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -113,7 +112,7 @@ border-radius: 10px;
    position: relative;
 }
 main{
-    width: 1044px;
+    width: 1440px;
     margin: 0 auto;
 }
 .change-habits{
@@ -181,7 +180,7 @@ font-size: 48px;
     display: flex;
     margin: 50px;
     padding: 50px;
-    width: 1060px;
+    width: 1160px;
     
 }
 .run-fonts{
@@ -208,9 +207,9 @@ font-size: 48px;
     color: white;
     margin: 50px;
     text-align: center;
-    width: 1160px ;
-    background-color: #222222;
-   padding-bottom: 2rem;
+   
+   
+   
     
 }
 
@@ -220,6 +219,10 @@ font-size: 48px;
  row-gap: 20px;
 column-gap: 0;
  border-radius: 15px;
+ background-color: #222222;
+ padding: 5rem;
+ color: white;
+ width: 1160px;
  
 }
 .text{
@@ -287,14 +290,26 @@ column-gap: 0;
     .image-size,
     .real-footer,
     .footer2,
-    .real-footer
-    .meet-team-img-container
+    .real-footer,
+    .display-flex,
+    .run
+  
+ 
     {
         flex-direction: column;
         
 
     }
+   .meet-team-img-container{
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
    
+    position: relative;
+    padding: 25rem;
+    padding-top: 10%;
+
+  
+   }
 
         
 
